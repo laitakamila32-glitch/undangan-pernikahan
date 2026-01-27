@@ -1,3 +1,3 @@
 function buka() {
-    window.location.href = "halaman2"
+    window.location.href = "halaman2.html"
 }
