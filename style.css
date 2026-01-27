@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font2);
+  color: #333;
+  scroll-behavior: smooth;
+  background: #fdfbf7;
+}
+
+/* Halaman umum */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* halaman2 */
+.page2 {
+  background: var(--bg2) center/cover fixed no-repeat;
+  color: #222;
+  flex-direction: column;
+}
+.page2 .content {
+  background: rgba(255,255,255,0.9);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.judul {
+  font-family: var(--font1);
+  font-size: 52px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+.tanggal {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 5px solid var(--primary);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.teks {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.detail h3 {
+  color: var(--primary);
+  margin-top: 20px;
+  font-family: var(--font1);
+  font-size: 30px;
+}
+.map {
+  margin-top: 25px;
+}
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 3px solid var(--primary);
+  border-radius: 12px;
+}
+.thanks {
+  margin-top: 25px;
+  font-family: var(--font1);
+  font-size: 32px;
+  color: var(--primary);
+}
