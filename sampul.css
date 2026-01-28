@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url(asset/wedding.jpeg);
+    background-size: 78%;
+    background-position: center;
+
+}
+
+.page1 {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.box {
+    padding: 0;
+}
+
+.nama {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0 25px;
+}
+
+.page1 h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.page1 h1 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: rgb(221, 157, 88);
+  color: rgb(45, 33, 6);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #e5b285;
+}
