@@ -101,3 +101,18 @@ body {
   font-size: 32px;
   color: var(--primary);
 }
+
+.play {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: rgb(221, 157, 88);
+  color: rgb(45, 33, 6);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.play:hover {
+  background: #9e693b;
+}
