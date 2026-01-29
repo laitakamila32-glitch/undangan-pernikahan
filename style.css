@@ -102,17 +102,18 @@ body {
   color: var(--primary);
 }
 
+/* tombol music di dalam kotak */
 .play {
-  display: inline-block;
-  padding: 12px 28px;
-  background-color: rgb(221, 157, 88);
-  color: rgb(45, 33, 6);
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+  margin: 15px auto;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #c2844a;
+  color: #fff;
+  cursor: pointer;
+  display: block;
 }
 
 .play:hover {
-  background: #9e693b;
+  background: #d69358;
 }
